@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+.grid-container{
+display: grid;
+text-align: center;
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.grid-item {
+   
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+table{
+    display: -ms-inline-grid;
+    border-spacing: 1em;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 1px  rgba(0, 0, 0, 0.8);
+    padding: 1px;
+    margin-top: auto;
+    
+}
+
+.input {
+    display: inline;
+    width: 70%;
+    height: 2.5rem;
+    font-size: 15px;
+    font-family: sans-serif;
+    align-items: center;
+ }  
+
+ .button{
+    display: inline;
+    width: 9%;
+    height: 2.5rem;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: white;
+    border: transparent;
+    
+    
+    
+   
+ }
+
+ button:hover{
+    background-color: indigo;
+ }
+
+
+.h1{
+    margin-top: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: indigo;
+   
+   
+}
+
+.loader{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+td{
+    border: transparent;
+    background-color: cornsilk;
+}
+
+body{
+    background: skyblue;
+}
+
+@media  screen and (max-width: 800px) {
+    .grid-item, .input, .button, table{
+        width: 100%;
+    }
+}
+
+

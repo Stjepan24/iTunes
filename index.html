@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTunes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader" class="loader d-none align-items-center justify-content-center">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    
+
+    <div class="grid-container">
+        <div class="grid-item">
+                <h1 class="h1">iTunes App</h1>
+            </div>
+       
+        <div class="grid-item">
+                <div class="input">
+
+                    <input type="text" class="input" placeholder="Enter search term" aria-label="Enter search term" aria-describedby="searchBtn" id="searchTerm">
+
+                    <button class="button" type="button" id="searchBtn">Search</button>
+                  </div>
+            </div>
+       
+
+        <div class="grid-item">
+                <table class="table">
+                    <thead>
+                        <th>Artist Name</th>
+                        <th>Collection Name</th>
+                        <th>Preview</th>
+                    </thead>
+                    <tbody id="songsList">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+   </div>
+   
+    
+
+
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
